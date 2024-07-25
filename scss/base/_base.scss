@@ -1,0 +1,53 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background-color: #1b1a1a;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+div,
+button,
+input,
+label,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+input {
+    background-color: transparent;
+}
